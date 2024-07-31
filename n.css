@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ffcc33, #ff6699);
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+    background: #fff;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.section:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project {
+    background: linear-gradient(145deg, #f0f0f0, #e0e0e0);
+    box-shadow: 5px 5px 10px #ccc, -5px -5px 10px #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: left;
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+.project-form {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.project-form input,
+.project-form textarea,
+#contact-form input,
+#contact-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    background: linear-gradient(145deg, #f0f0f0, #e0e0e0);
+    box-shadow: inset 5px 5px 10px #ccc, inset -5px -5px 10px #fff;
+}
+
+.project-form button,
+#contact-form button {
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, box-shadow 0.3s;
+}
+
+.project-form button:hover,
+#contact-form button:hover {
+    background: #555;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
